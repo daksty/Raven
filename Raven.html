@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Im Raven!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        /* Colorful buttons */
+        /* Remove the existing button styles */
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff9900;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            background-color: #ffa500;
+        }
+
+        /* Animation */
+        .animate {
+            animation: fadeIn 1s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #ff9900; font-size: 2.5em;">Raven</h1>
+        <p style="color: #ffa500; font-size: 1.2em;">Aspiring Developer</p>
+    </header>
+    
+    <section id="about" class="animate">
+        <h2>About Me</h2>
+        <p>I'm Raven, a passionate student on a quest to master programming. I specialize in Python and create digital wonders with HTML and CSS. My hunger for knowledge in the tech world knows no bounds.</p>
+    </section>
+    
+    <section id="interests" class="animate">
+        <h2>Interests</h2>
+        <p>My interests include conquering virtual realms, turning ideas into profit, embracing the aquatic world, and thriving offline.</p>
+    </section>
+    
+    <section id="contact" class="animate">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me at ravenferriols99@gmail.com</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/raven.maltos.14?mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a href="https://instagram.com/ravenmaltos?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">Instagram</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Raven</p>
+    </footer>
+</body>
+</html>
